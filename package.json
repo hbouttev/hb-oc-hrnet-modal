@@ -1,0 +1,48 @@
+{
+  "name": "hb-oc-hrnet-modal",
+  "version": "0.0.1",
+  "description": "DO NOT USE THIS PACKAGE. This is an exercise and will be deleted.",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist/**",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hbouttev",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.3",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "peerDependencies": {
+    "react": ">=18.3.1",
+    "react-dom": ">=18.3.1",
+    "tailwindcss": ">=3.4.3"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.0.5",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.378.0",
+    "tailwind-merge": "^2.3.0"
+  }
+}
