@@ -2,6 +2,10 @@
   "name": "hb-oc-hrnet-modal",
   "version": "0.0.1",
   "description": "DO NOT USE THIS PACKAGE. This is an exercise and will be deleted.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hbouttev/hb-oc-hrnet-modal"
+  },
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
