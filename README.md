@@ -69,7 +69,13 @@ const MyComponent = () => {
 
 ## Styling
 
-The module provides a default css file for basic style. It can be overridden by passing custom `style` or `className`
+The module provides a default css file for basic style. You can import it in your root file:
+
+```js
+import 'hb-oc-hrnet-modal/default-styles.css';
+```
+
+It can be overridden by passing custom `style` or `className`
 props to the components.
 
 For wrapper with multiple primitives, a `classNames` and a `styles` object props are provided to style the children
