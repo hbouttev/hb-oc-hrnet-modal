@@ -1,7 +1,7 @@
 {
   "name": "hb-oc-hrnet-modal",
-  "version": "0.0.4",
-  "description": "DO NOT USE THIS PACKAGE. This is an exercise and will be deleted.",
+  "version": "0.0.5",
+  "description": "DO NOT USE THIS PACKAGE. This is an exercise and will be deleted. A modal component for React build for HRNet.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hbouttev/hb-oc-hrnet-modal.git"
